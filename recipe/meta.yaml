@@ -1,13 +1,13 @@
 {% set name = "cosmoTransitions" %}
-{% set version = "2.0.6" %}
+{% set version = "2.0.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/cosmoTransitions-{{ version }}.tar.gz
-  sha256: aa06b00658275d9e7f35a102e89cc5e640c326bcb70d2389f63dfac5e19826bf
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
+  sha256: 0f2a52e197e72b742745ec11b0deb93aa198ac3bca887924fb66c2eed946c18c
 
 build:
   noarch: python
